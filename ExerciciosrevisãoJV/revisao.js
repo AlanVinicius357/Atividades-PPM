@@ -61,3 +61,4 @@ frutas.forEach(fruta => console.log(fruta))
 // remove a ultima fruta do array
 frutas.pop()
 console.log(frutas)
+a
