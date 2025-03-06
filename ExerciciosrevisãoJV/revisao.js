@@ -1,4 +1,4 @@
-const prompt = require ("prompt-sync") ({sigint: true});
+/*const prompt = require ("prompt-sync") ({sigint: true});
 
 
 //operadores aritmeticos
@@ -61,4 +61,26 @@ frutas.forEach(fruta => console.log(fruta))
 // remove a ultima fruta do array
 frutas.pop()
 console.log(frutas)
-a
+
+
+*/
+
+let pessoa = {
+    nome: "Alan",
+    idade: 24,
+    peso: 89,
+    altura: 185
+}
+console.log(pessoa.nome)
+pessoa.idade = 40
+console.log(pessoa.idade)
+
+//destribuição de objetos
+
+const {peso, altura} = pessoa
+console.log(peso)
+console.log(altura)
+
+//propagação de objetos
+
+
