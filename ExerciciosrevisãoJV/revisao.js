@@ -1,4 +1,4 @@
-/*const prompt = require ("prompt-sync") ({sigint: true});
+const prompt = require ("prompt-sync") ({sigint: true});
 
 
 //operadores aritmeticos
@@ -9,7 +9,7 @@ const multiplicação = 2*2
 const divisao = 2/2
 const resto = 3 % 2
 
-//operadores de comparçãp
+//operadores de comparção
 const igual = 2 == 2
 const diferente = 3 != 2
 const maior = 3 > 2
@@ -63,7 +63,8 @@ frutas.pop()
 console.log(frutas)
 
 
-*/
+
+
 
 let pessoa = {
     nome: "Alan",
@@ -83,4 +84,54 @@ console.log(altura)
 
 //propagação de objetos
 
+const endereço = {
+    cidade: "Brasilia",
+    uf: "DF"
+}
 
+const pessoaCompleta = {
+    ...pessoa,
+    ...endereço
+}
+console.log(pessoaCompleto)
+
+
+
+
+//funções
+//declaração da função
+function subtração(numA, numB){
+    const resultado= numA - numB
+    console.log(resultado)
+}
+//usando a função
+subtração(45,43)
+subtração(15726, 5442)
+subtração(21459874569, 2544785454)
+
+
+
+
+function divisao(numA, numB){
+    const resultado= numA / numB
+    console.log(resultado)
+}
+//usando a função
+divisao(454,43)
+divisao(15726, 5442)
+divisao(21459, 254)
+
+
+
+// função anonima
+const subtrair = function(numC, numD){
+const resultado = (numC - numD)
+console.log(resultado)
+}
+subtrair(45, 25)
+
+
+
+//arrow function
+const multiplicar = (numE, numF) => numE * numF
+multiplicar(14,55)
