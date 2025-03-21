@@ -38,7 +38,7 @@ export default function App() {
         <Text>Lucas Rodrigues Moura da Silva (São Paulo, 13 de agosto de 1992) é um futebolista brasileiro que atua como meia-atacante ou ponta. Atualmente joga pelo São Paulo.</Text>
           <Image 
           source={require('./imagens/image2.webp')}
-
+          
           style= {{
             height: 300,
             width: 300,
