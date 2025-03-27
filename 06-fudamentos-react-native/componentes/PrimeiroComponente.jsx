@@ -1,3 +1,8 @@
+//rnfs é um atalho para dar o componente completo, junto da extensãoES7+ React/Redux/React-Native snippets
+
+
+
+
 //imports
 import React from "react";
 import {Text, View} from 'react-native'
