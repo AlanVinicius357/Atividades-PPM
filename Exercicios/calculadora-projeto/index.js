@@ -18,6 +18,6 @@ function calcularIdade(anoNascimento,) {
 }
 
 
-const anoNascimento = 1990; 
+const anoNascimento = 2001; 
 const idade = calcularIdade(anoNascimento);
 console.log(`Idade: ${idade} anos`);
