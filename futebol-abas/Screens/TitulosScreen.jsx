@@ -5,20 +5,23 @@ import { Text, List } from 'react-native-paper';
 const titulos = [
   {
     nome: "Campeonato Brasileiro",
-    anos: [1980, 1982, 1983, 1992, 2009, 2019, 2020]
+    anos: [1977, 1986, 1991, 2006, 2007, 2008]
   },
   {
     nome: "Copa Libertadores da América",
-    anos: [1981, 2019, 2022]
+    anos: [1993, 1994, 2005]
   },
+  
   {
     nome: "Copa do Brasil",
-    anos: [1990, 2006, 2013, 2022, 2024]
+    anos: [2023]
   },
   {
-    nome: "Supercopa do Brasil",
-    anos: [2020, 2021, 2025]
+    nome: "Mundial de Clubes",
+    anos: [1993, 1994, 2005]
   },
+  
+
 ];
 
 const TitulosScreen = () => {

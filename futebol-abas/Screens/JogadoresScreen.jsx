@@ -4,29 +4,29 @@ import { Text, Card } from 'react-native-paper';
 
 const jogadores = [
   {
-    nome: "Gabriel Barbosa",
-    numero: 9,
-    imagem: "https://i.pinimg.com/474x/1d/9f/5d/1d9f5de58831c9913f925a7155bdc7da.jpg"
-  },
-  {
-    nome: "Arrascaeta",
-    numero: 14,
-    imagem: "https://i.pinimg.com/474x/cf/ad/d9/cfadd92de5e581ac5505e3d325f8b9b2.jpg"
-  },
-  {
-    nome: "Everton Ribeiro",
+    nome: "Lucas Moura",
     numero: 7,
-    imagem: "https://i.pinimg.com/236x/39/1a/27/391a275fb7e0b018f2900f0f9fc9331b.jpg"
+    imagem: "https://s2-ge.glbimg.com/AtjSDx2S-pKzDc7lTf72BZ1sL5I=/0x0:1638x2048/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/f/Y/AGPjuHQgWpBkJv0ZHjvg/gowqdltwqaatgek.jpg"
   },
   {
-    nome: "David Luiz",
-    numero: 23,
-    imagem: "https://i.pinimg.com/474x/98/79/9b/98799b86107a87b79dc9b15cf778fa4a.jpg"
+    nome: "Oscar",
+    numero: 8,
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-wk8ntJPXlvPkINKIh-mVBny4G8Is_vFrcg&s"
   },
   {
-    nome: "Pedro",
-    numero: 21,
-    imagem: "https://i.pinimg.com/474x/79/e6/18/79e6185649fa3667b3ed3beef3e1ae94.jpg"
+    nome: "Luciano",
+    numero: 10,
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNoUCBH0Jo-7VLmzVvIfclKqia_Z68id-04w&s"
+  },
+  {
+    nome: "Ferreira",
+    numero: 11,
+    imagem: "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2025/04/AGIF25041023001369-aspect-ratio-512-320.jpg"
+  },
+  {
+    nome: "Calleri",
+    numero: 9,
+    imagem: "https://sportbuzz.com.br/wp-content/uploads/2024/09/calleri-marca-historia.jpg"
   },
 ];
 
